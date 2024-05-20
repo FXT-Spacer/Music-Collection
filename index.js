@@ -14,52 +14,22 @@ const music = new Audio();
 
 const songs = [
     {
-        path: 'assets/Ai Đâu Hay - Seanpoet.mp3',
-        displayName: 'Ai Đâu Hay',
-        cover: 'https://i.ytimg.com/vi/RLYtfjnPOfQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIEQoTzAP&rs=AOn4CLBqRo4pxjNILrDTKsCxjE2H5Ia50w',
-        artist: 'Seanpoet',
+        path: 'assets/Hay là chúng ta cứ như vậy một vạn năm - Hoàng Tiêu Vân (Trường Nguyệt Tẫn Minh OST).mp3',
+        displayName: 'Trường Nguyệt Tẫn Minh OST',
+        cover: 'https://i.ytimg.com/vi/6sJeakNmoWw/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhYIGUoZTAP&rs=AOn4CLCkZmTk3DHyurzyR_8WFDLJukm81Q',
+        artist: 'Hoàng Tiêu Vân',
     },
     {
-        path: 'assets/Cả Một Đời Để Quên - Đặng Tuấn Vũ.mp3',
-        displayName: 'Cả Một Đời Để Quên',
-        cover: 'https://i.ytimg.com/vi/Mo74KkfQH8o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFcKW6-d-6Bo8gturHg7Tjk8I1Hw',
-        artist: 'Đặng Tuấn Vũ',
-    },
-    {
-        path: 'assets/Em Của Quá Khứ - Huy Nam.mp3',
-        displayName: 'Em Của Quá Khứ',
-        cover: 'https://i.ytimg.com/vi/itH7J_cnjQU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbtMlCctQVCQOA5t9CQfEf1yxVAA',
-        artist: 'Huy Nam',
-    },
-    {
-        path: 'assets/Thuyền Không Bến Đợi - Trungg I.U ft. Czee.mp3',
-        displayName: 'Thuyền Không Bến Đợi',
-        cover: 'https://i.ytimg.com/vi/bOZAdBsYVTg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBbiZkDUx-SBnZcKIZjPkHwcODCAA',
-        artist: 'Trungg I.U',
-    },
-    {
-        path: 'assets/Xin Đừng Lặng Im - Soobin Hoàng Sơn.mp3',
-        displayName: 'Xin Đừng Lặng Im',
-        cover: 'https://i.ytimg.com/vi/xjqxc5-euP8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTZ4Vo-FKIiC81ZFBM_4RP9PnxHg',
-        artist: 'Soobin Hoàng Sơn',
-    },
-    {
-        path: 'assets/Khuôn Mặt Đáng Thương - Sơn Tùng.mp3',
-        displayName: 'Khuôn Mặt Đáng Thương',
-        cover: 'https://i.ytimg.com/vi/0JePgrZ5zxs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIE8oSTAP&rs=AOn4CLD88EWmt_WVc1Yq0qlZ6_YxNMCfGg',
-        artist: 'Sơn Tùng',
-    },
-    {
-        path: 'assets/Để Dành Khi Thức Giấc.mp3',
-        displayName: 'Để Dành Khi Thức Giấc',
-        cover: 'https://i.ytimg.com/vi/S6x-p6Vfyew/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBI5-4hD_CdyTcvzXY1vqq9rlywHw',
+        path: 'assets/Tìm thấy nhau - SIVAN.mp3',
+        displayName: 'Tìm thấy nhau',
+        cover: 'https://i.ytimg.com/vi/QTULiXpMgLk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IC4oOTAP&rs=AOn4CLA1QE4WYNTcU_knHQ4Y_S4SJtnt-g',
         artist: 'SIVAN',
     },
     {
-        path: 'assets/Lao Tâm Khổ Tứ _ Thanh Hưng.mp3',
-        displayName: 'Lao Tâm Khổ Tứ',
-        cover: 'https://i.ytimg.com/vi/TfKOFRpqSME/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDF4Sn1-1wnAf_De2rlyb0z9myFQ',
-        artist: 'Thanh Hưng',
+        path: 'assets/Tháng năm - Soobin Hoàng Sơn.mp3',
+        displayName: 'Tháng năm',
+        cover: 'https://i.ytimg.com/vi/UyXngX4kTfE/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEUoQjAP&rs=AOn4CLAHw2Jrw2kEawP8RMZ-NWZWimJpXQ',
+        artist: 'Soobin Hoàng Sơn',
     },
 ];
 
