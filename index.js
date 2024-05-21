@@ -31,6 +31,12 @@ const songs = [
         cover: 'https://i.ytimg.com/vi/UyXngX4kTfE/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEUoQjAP&rs=AOn4CLAHw2Jrw2kEawP8RMZ-NWZWimJpXQ',
         artist: 'Soobin Hoàng Sơn',
     },
+    {
+        path: 'assets/Giá như - Soobin Hoàng Sơn.mp3',
+        displayName: 'Giá như',
+        cover: 'https://i.ytimg.com/vi/SeWt7IpZ0CA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeixW-45OM-XaGpg51afCRy7GUZghttps://i.ytimg.com/vi/UyXngX4kTfE/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEUoQjAP&rs=AOn4CLAHw2Jrw2kEawP8RMZ-NWZWimJpXQ',
+        artist: 'Soobin Hoàng Sơn',
+    },
 ];
 
 let musicIndex = 0;
